@@ -36,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Spartan082/GallieTestRepo.git",
+  "author": "Spartan082 <cruch341@live.kutztown.edu>",
+  "license": "MIT"
 }
