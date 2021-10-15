@@ -14,7 +14,8 @@ const db = mysql.createConnection({
     host: 'galliedb.c1j5afoliojj.us-east-1.rds.amazonaws.com',
     user: 'admin',
     password: '#Gallie143',
-    database: 'Galliedb'
+    database: 'Galliedb',
+    port: '3306'
 });
 
 app.get("/posts", (req, res) => {
