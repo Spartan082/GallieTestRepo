@@ -12,7 +12,7 @@ function Posts(props) {
 
     useEffect(() => {
         Axios
-            .get('http://localhost:8000/posts')
+            .get('http://172.31.19.79/:8000/posts')
             .then((response) => {
                 //console.log(response);
                 setPosts(response.data);
